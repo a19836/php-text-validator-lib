@@ -42,7 +42,7 @@ p {margin:0 0 20px; text-align:center;}
 	<h5>Usage</h5>
 	<div class="code">
 		<textarea readonly>
-include_once __DIR__ . "/TextValidator.php";
+include_once __DIR__ . "/lib/TextValidator.php";
 
 $status = TextValidator::isBinary($input); //check if input is a binary
 $status = TextValidator::isEmail($input); //check if input is an email
